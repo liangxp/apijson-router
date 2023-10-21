@@ -25,7 +25,6 @@ import java.util.Set;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-import javax.servlet.http.HttpSession;
 
 import com.alibaba.fastjson.JSONObject;
 
@@ -42,6 +41,7 @@ import apijson.orm.AbstractVerifier;
 import apijson.orm.Parser;
 import apijson.orm.SQLConfig;
 import apijson.orm.Verifier;
+import jakarta.servlet.http.HttpSession;
 
 
 /**APIJSON router controller，建议在子项目被 @RestController 注解的类继承它或通过它的实例调用相关方法
